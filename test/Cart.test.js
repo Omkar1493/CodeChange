@@ -70,7 +70,7 @@ describe('Cart', () => {
               let item1 = new Item("Watch", 20000, true);
               let item2=new Item("Handbag", 500.00, true);
               // Actss
-              const cart = new Cart();
+              const   cart = new Cart();
               cart.addItem(item2, 1);
               cart.addItem(item2, 2);
               //Assert
